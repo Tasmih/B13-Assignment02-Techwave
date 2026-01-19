@@ -110,6 +110,32 @@ nav>span{
     border: 1px solid #00ff88;
 }
 
+#podcast{
+    max-width: 1600px;
+    background-color: #1A0B2E;
+    margin: 0 auto;
+}
+.podcast-container{
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+.section-heading{
+    padding-top: 50px;
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: bold;
+    
+}
+.ratio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+
 
 
 
