@@ -57,24 +57,29 @@ nav>span{
     justify-content: center
 }
 
-.box{
+.banner-container{
+    width: 33%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.box-image{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+ .image-2{
     position: relative;
-    
-}
-.image-2{
-    top: -700px;
-   
-}
- .image-3{
-    top:-300px;
-   
-
+    right:200px;
+    left: -69px;
+    top:-150px; 
 }
 
 
-
-
- .banner-container>h2{
+.banner-container>h2{
   color: #ffffff;
   font-size: 3.8rem;
   font-weight: bolder;
@@ -135,7 +140,34 @@ nav>span{
     padding-bottom: 120px;
 }
 
-
+#choosing{
+    max-width: 1600px;
+    background-color: #230e3d;
+}
+.choosing-container, .features-container{
+   max-width: 1200px; 
+   width: 75%;
+   margin: 0 auto;
+   text-align: center;
+   
+}
+.facilities{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin: 0 auto;
+    grid-template-areas: 
+    "card-1 card-2 card-2"
+     "card-1 card-3 card-3"
+     "card-4 card-4 card-5";
+     padding-top: 40px;
+     padding-bottom: 120px;
+}
+.card-1{grid-area:card-1}
+.card-2{grid-area:card-2}
+.card-3{grid-area:card-3}
+.card-4{grid-area:card-4}
+.card-5{grid-area:card-5}
 
 
 
