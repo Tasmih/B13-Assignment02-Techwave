@@ -169,6 +169,70 @@ nav>span{
 .card-4{grid-area:card-4}
 .card-5{grid-area:card-5}
 
+.facilities.card-1, .card-2, .crd-3, .card-4, .card-5{
+    background-color: #351165;
+    color: #ffffff;
+    text-align:start;
+    display: grid;
+    padding: 40px;
+    border-radius: 40px;
+    gap: 16;
+}
+
+.features-container{
+    padding-bottom: 120px;
+}
+.vedios{
+    display: flex;
+    text-align: start;
+    padding-top: 40px;
+    gap:30px;
+}
+.vedio-card{
+    display: grid;
+    background-color: #250d44;
+    gap:24px
+}
+.vedio-text{
+    padding: 24px;
+}
+.green{
+    display: flex;
+    color: #00ff88;
+    font-size: 24px;
+    font-weight: 600;
+    gap:6px;
+    padding-bottom: 24px;
+}
+.alex{
+    display: flex;
+    background-color: #351165;;
+    text-align: start;
+    gap:24px;
+    border-radius: 40px;
+}
+.alex-text{
+    display: grid;
+    gap: 16px;
+}
+.alex-texth4{
+    color:#ffffff;
+    font-size: 32px;
+    font-weight: bold;
+}
+.social-links{
+    display: inline-flex;
+    gap: 8px;
+
+}
+.social-links .icon{
+    padding:8px;
+    border: 1px solid #70045075;
+    border-color: #533c72;
+    border-radius: 50%;
+}
+
+
 
 
 
