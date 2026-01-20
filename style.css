@@ -52,7 +52,6 @@ body {
     color: #ffffff;
 }
 
-/*unic code */
 nav {
     display: flex;
     max-width: 1600px;
@@ -78,7 +77,7 @@ nav ul li a {
     font-weight: 500;
 }
 
-nav>span {
+.nav .h-menu{
     margin-right: 5px;
     display: none;
 
@@ -142,7 +141,13 @@ nav>span {
     display: flex;
     gap: 4px;
     align-items: center;
-    justify-content: center 
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+.btn-1:hover{
+    background: #ae1b71;
+    transform: scale(1.05);
 }
 
 .btn .subscribe-btn {
@@ -153,7 +158,14 @@ nav>span {
     border-radius: 12px;
     background: transparent;
     border: 1px solid #00ff88;
+    cursor: pointer;
+    transition: all 0.5s ease;
 }
+.btn .subscribe-btn:hover{
+    background: #e41f9b;
+    transform: scale(1.05);
+}
+
 
 #podcast,
 #features,
@@ -285,6 +297,7 @@ nav>span {
     padding: 24px;
     border-radius: 40px;
 }
+
 
 .alex-text {
     display: grid;
@@ -426,11 +439,11 @@ nav>span {
     }
     .footer-container .footer-links{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
     }
 }
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 992px) {
      body{
         margin: 0 auto;
     }
@@ -440,14 +453,10 @@ nav>span {
         padding: 20px;
 
     }
-    .menu{
-        display: none;
-    }
-    .btn-primary{
-        display: none;
+    
     }
     nav .h-menu{
-        display: block;
+        display: none;
     }
     #banner, #podcast, #choosing, #features, #footer{
         width: 100%;
@@ -525,4 +534,3 @@ nav>span {
         display: flex;
         flex-wrap: wrap;
     }
-}
