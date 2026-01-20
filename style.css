@@ -138,6 +138,10 @@ nav ul li a {
     border-radius: 20;
     top: 20px;
     left: 270px;
+    cursor: pointer;
+}
+.green-btn:hover{
+    color: #ddeee6;
 }
 
 
@@ -155,6 +159,10 @@ nav ul li a {
     align-items: center;
     gap: 8px;
     margin-bottom: 100px;
+    cursor: pointer;
+}
+.btn:hover{ 
+    color: ;
 }
 .btn-1{
     width: 135px;
@@ -287,9 +295,11 @@ nav ul li a {
     padding-bottom: 120px;
     margin: 0 auto;
     text-align: center;
+    
 }
 .features-container .episodes{
     text-align: center;
+    
 }
 
 .videos{
@@ -298,6 +308,7 @@ nav ul li a {
     padding-top: 40px;
     gap: 30px;
 }
+
 
 .video-card {
     display: grid;
