@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Techwave</title>
+    <title>TechWave</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 />
@@ -13,16 +13,16 @@
 <body>
     <nav>
         <img src="Images/TechWave (1).png" alt="">
-        <div>
-            <ul class="menu-container">
+        <div class="menu">
+            <ul>
                 <li><a href="">About</a></li>
                 <li><a href="">Episode</a></li>
                 <li><a href="">Host</a></li>
             </ul>
            
         </div>
-         <button class="btn-primary">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
-         <span><img src="Images/assets/hamburger-menu.png" alt=""></span>
+         <button class="btn-primary">Subscribe<i class="fa-solid fa-arrow-right"></i></button>
+         <span><img src="./Images/assets/hamburger-menu.png" alt=""></span>
      </nav>
 <!-- banner -->
     <section id="banner">
@@ -39,15 +39,14 @@
                     <img src="./Images/assets/spotify.png" alt="">Listen On Spotify</button>
                     <button class="Subscribe-btn">
                         <img src="./Images/assets/message.png" alt="">Subscribe</button>
-                  </div>
-                </div>
+                  </div></div>
     </section>
 <!-- podcast -->
-    <section id="podcast" >
+    <section id="podcast">
         <div class="podcast-container">
             <div class="about" >
-                <h3>About The Podcast</h3>
-                <p class="common">
+                <h3 class="section">About The Podcast</h3>
+                <p class="common-type">
                     TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
 We break down complex topics into digestible insights,<br> explore productivity strategies that actually work, <br>
 and share stories of personal growth from industry leaders. <br><br>
@@ -63,17 +62,17 @@ Join thousands of young professionals and tech enthusiasts who start their day w
 
                 <div class="count">
                     <h3 class="number">200K</h3>
-                    <p class="common">EPISODE PUBLISHED</p>
+                    <p class="common-type">EPISODE PUBLISHED</p>
                 </div>
 
                 <div class="count">
                     <h3 class="number">4.9<i class="fa-solid fa-star"></i></h3>
-                    <p class="common">Average Rating<p>
+                    <p class="common-type">Average Rating<p>
                 </div>
 
                 <div class="count">
                     <h3 class="number">50K</h3>
-                    <p class="common">Industry Experts</p>
+                    <p class="common-type">Industry Experts</p>
                 </div>
             </div>
         </div>
@@ -125,19 +124,19 @@ Join thousands of young professionals and tech enthusiasts who start their day w
      <div class="features-container">
         <div class="episodes">
             <h3 class="section-heading">Featured Episodes</h3>
-            <div class="vedios">
-                <div class="vedios-card">
-                   <iframe width="560" height="315"src="https://www.youtube.com/embed/JkXAK6X6okw?si=wRCk1e4rNowOILaj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="videos">
+                <div class="video-card">
+                   <iframe width="560" height="215"src="https://www.youtube.com/embed/JkXAK6X6okw?si=wRCk1e4rNowOILaj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-                   <div class="vedio-text">
+                   <div class="video-text">
                     <h5 class="card-heading">The Future of AI in Everyday <br>Life</h5>
                     <p class="card-text">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
                     <p class="green"><img src="Images/assets/clock.png" alt=""></p>
                 </div>
                 </div>
-                <div class="vedio-card"><iframe class="frame" width="360" height="215" src="https://www.youtube.com/embed/Qa_4c9zrxf0?si=GoSFg_Bq_pF53kX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-card"><iframe class="frame" width="360" height="215" src="https://www.youtube.com/embed/Qa_4c9zrxf0?si=GoSFg_Bq_pF53kX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-                    <div class="vedio-text">
+                    <div class="video-text">
                         <h5 class="card=heading">Building Better Habits for Remote Work</h5>
 
                         <p class="card-text">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
@@ -146,7 +145,7 @@ Join thousands of young professionals and tech enthusiasts who start their day w
 
                 <div class="vedio-card"><iframe class="frame" width="360" height="215" src="https://www.youtube.com/embed/f-FyMY1LMwI?si=8jVvPZ5jXn1ab9cp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-                    <div class="vedio-text">
+                    <div class="video-text">
                         <h5 class="card-heading">Career Growth in Tech: A Roadmap</h5>
                         <p class="card-text">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
                         <p class="green"><img src="Images/assets/clock.png" alt="">51 min</p>
@@ -154,7 +153,8 @@ Join thousands of young professionals and tech enthusiasts who start their day w
                 </div>
             </div>
         </div>
-        <div class="host"><h3 class="section-heading">Meet The Host</h3>
+        <div class="host">
+            <h3 class="section-heading">Meet The Host</h3>
             <div class="alex">
                 <div class="alex-img"><img src="Images/assets/host.png" alt=""></div>
 
