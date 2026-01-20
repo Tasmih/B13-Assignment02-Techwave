@@ -12,7 +12,46 @@ body{
     color:#ffffff
 }
 
+/*common code*/
+.btn-primary{
+    width: 135px;
+    height: 44px;
+    color:#ffffff;
+    padding: 12px 16px;
+    background:linear-gradient( to top right, #f7e93f,#fb09b4,
+        #9100fb);
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center
+}
+.common-type{
+    color :#ffffff;
+    font-size: 1rem;
+    margin-bottom:24px;
+    line-height:20px;
+}
 
+.number{
+    color:#00ff88;
+    font-size:48px;
+    margin-bottom: 16px;
+}
+
+.card-heading{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff
+}
+.card-text{
+    font-size:16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+/*unic code */
 nav{
 display: flex;
 max-width: 1600px;
@@ -41,20 +80,10 @@ nav>span{
 
 }
 
-/*common code*/
-.btn-primary{
-    width: 135px;
-    height: 44px;
-    color:#ffffff;
-    padding: 12px 16px;
-    background:linear-gradient( to top right, #f7e93f,#fb09b4,
-        #9100fb);
-    border: none;
-    border-radius: 20px;
-    display: flex;
-    gap: 4px;
-    align-items: center;
-    justify-content: center
+#banner{
+    max-width: 1600px;
+    background-image: url(../B-13-Assignment02-Techwave/Images/assets/hero-bg.png);
+    background-position: center;
 }
 
 .banner-container{
@@ -64,40 +93,28 @@ nav>span{
     flex-direction: column;
     margin: 0 auto;
 }
-.box-image{
-    margin-top: 100px;
+.img-box{margin-top: 100px;
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
 
 }
- .image-2{
-    position: relative;
-    right:200px;
-    left: -69px;
-    top:-150px; 
+    
+ .img-box.img-2{
+    position: absolute;
+    left: 110px;
+    top: 80px; 
 }
 
 
-.banner-container>h2{
+.banner-container h2{
   color: #ffffff;
   font-size: 3.8rem;
   font-weight: bolder;
   margin-bottom: 24px;
-  justify-content: center;
-  align-items: center;
-  display: grid;
-  place-items: center;
-  text-align: center;
+  
  }
- .banner-container>p{
- color: #ffffff;
- font-size: 1rem;
- margin-bottom: 24px;
- display: grid;
- place-items: center;
- text-align: center;
- }
+  
  .btn{
     display: flex;
     justify-content: center;
@@ -105,7 +122,7 @@ nav>span{
     gap: 8px;
     margin-bottom: 100px;
 }
-.btn .subscribe-button{
+.btn .subscribe-btn{
     color: #00ff88;
     display: flex;
     gap: 8px;
@@ -115,7 +132,7 @@ nav>span{
     border: 1px solid #00ff88;
 }
 
-#podcast{
+#podcast, #features, #footer{
     max-width: 1600px;
     background-color: #1A0B2E;
     margin: 0 auto;
@@ -144,7 +161,7 @@ nav>span{
     max-width: 1600px;
     background-color: #230e3d;
 }
-.choosing-container, .features-container{
+.choosing-container,.features-container{
    max-width: 1200px; 
    width: 75%;
    margin: 0 auto;
@@ -154,6 +171,7 @@ nav>span{
 .facilities{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
     gap: 30px;
     margin: 0 auto;
     grid-template-areas: 
@@ -172,7 +190,7 @@ nav>span{
 .facilities.card-1, .card-2, .crd-3, .card-4, .card-5{
     background-color: #351165;
     color: #ffffff;
-    text-align:start;
+    text-align: start;
     display: grid;
     padding: 40px;
     border-radius: 40px;
@@ -201,21 +219,21 @@ nav>span{
     color: #00ff88;
     font-size: 24px;
     font-weight: 600;
-    gap:6px;
+    gap: 6px;
     padding-bottom: 24px;
 }
 .alex{
     display: flex;
     background-color: #351165;;
     text-align: start;
-    gap:24px;
+    gap: 24px;
     border-radius: 40px;
 }
 .alex-text{
     display: grid;
     gap: 16px;
 }
-.alex-texth4{
+.alex-text h4{
     color:#ffffff;
     font-size: 32px;
     font-weight: bold;
@@ -226,7 +244,7 @@ nav>span{
 
 }
 .social-links .icon{
-    padding:8px;
+    padding: 8px;
     border: 1px solid #70045075;
     border-color: #533c72;
     border-radius: 50%;
