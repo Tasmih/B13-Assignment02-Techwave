@@ -24,7 +24,14 @@ body {
     display: flex;
     gap: 4px;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.btn-primary:hover{
+    opacity: 0.7;
+    transform: scale(1.05s);
+
 }
 
 .common-type {
@@ -143,10 +150,10 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: all 0.6s ease;
+    transition: all 0.1s ease;
 }
 .btn-1:hover{
-    background: #ae1b71;
+    background: #d8d84b;
     transform: scale(1.05);
 }
 
