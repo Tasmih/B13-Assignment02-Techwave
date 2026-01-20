@@ -128,12 +128,14 @@ nav ul li a {
 }
 .img-box .green-btn{
     padding: 8px 16px;
-    color: #ffffff;
+    color: solid black;
+    font-size: 18px;
+    font-weight: 600;
     background-color: #00ff88;
     border: none;
     border-radius: 8px;
     position: absolute;
-    border-radius: 16;
+    border-radius: 20;
     top: 20px;
     left: 270px;
 }
@@ -387,18 +389,6 @@ nav ul li a {
     color: #ffffff
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* responsive code*/
 @media screen and (max-width: 576px){
     body{
@@ -471,5 +461,12 @@ nav ul li a {
         display: flex;
         flex-wrap: wrap; 
     }
+}
+
+@media screen and (min-width: 992px){ 
+      nav .h-menu{
+        display: none;
+    }
+
 }
 
