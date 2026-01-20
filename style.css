@@ -449,8 +449,19 @@ nav ul li a {
         display: flex;
         flex-direction: column;
         width: 98%;
-    } 
+        align-content: center;
+        text-align: center;}
+        
+    .features-container .episodes .videos .video-text .green{
+    width: 100%;
+    margin:auto;
+    justify-content: center;
     
+}
+.features-container .video-card{
+    width: 80%;
+    margin: auto;
+}
     .host .alex{
         display: flex;
         flex-direction: column;
