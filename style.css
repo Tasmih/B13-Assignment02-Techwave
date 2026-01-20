@@ -412,6 +412,10 @@ nav ul li a {
     #banner, #podcast, #choosing, #features, #footer{
         width: 100%;
     }
+    .banner-container{
+        width: 100%;
+        margin: 0 auto;
+    }
     .banner-container .choosing-container{
         width: 100%;
     }
